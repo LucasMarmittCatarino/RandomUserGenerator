@@ -83,7 +83,7 @@ const Home: React.FC = () => {
 
                     <TextInput 
                     placeholder=""
-                    editable={false}
+                    
                     value={profissao}
                     onChangeText={(text) => (loading ? setProfissao(text) : '')}
                     style={style.personProfissao}
